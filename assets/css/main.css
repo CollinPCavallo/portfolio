@@ -64,3 +64,29 @@ a{
 #work, #skills{
     height: 40px;
 }
+.pdf{
+    position: relative;
+    top: 200px;
+}
+hr{
+    border-color: teal;
+}
+#resumeBody{
+    margin-top: 30px;
+    background: white;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+.resumeHead{
+    color: black;
+
+}
+.externalLinks {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    color: black;
+}
+.resumeInfo{
+    color: black;
+}
