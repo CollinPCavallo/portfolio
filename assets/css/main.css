@@ -21,6 +21,10 @@ padding: 50px 0 0 0;
 .card-body {
     BACKGROUND: black;
 }
+.skillsUl{
+    list-style-type: none;
+    margin: 0 auto;
+}
 .card{
     border: 1px solid rgba(0,0,0,.125);
     background: rgb(38, 187, 187);
@@ -43,9 +47,13 @@ padding: 50px 0 0 0;
 }
 .skillsImg{
     margin: 0 auto;
+    
 }
 h1, p{
     color: rgb(38, 187, 187);
+}
+.skillsList {
+    color: rgb(38,187,187)
 }
 .contactImg{
     padding: 20px;
