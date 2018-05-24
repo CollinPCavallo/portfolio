@@ -8,10 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro:700,900" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
 
 </head>
+<script>$('body').scrollspy({ target: '#navbar-example2' })</script>
 
 <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark justify-content-center">
@@ -20,7 +23,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="justify-content-center collapse navbar-collapse" id="navbarText">
-            <ul class="nav nav-pills">
+            <ul class="justify-content-center nav nav-pills">
                 <li class="nav-item">
                     <a class="nav-link" href="#home">Home</a>
                 </li>
@@ -46,14 +49,14 @@
             <p class="lead">Web-Developer</p>
             <img class="img-fluid self" src="./assets/img/self.jpg" alt="">
             <hr class="my-4">
-            <p>Full-stack Web Developer interested in Front-End and UX/UI Design. Quick to learn new tricks and accommodate
-                to what is necessary as well as always willing to try something new. Works well independently and as part
-                of a team. Experienced in HTML5, CSS, Javascript, Jquery, React, Node.</p>
-            <p>As A Front End Developer, I enjoy taking wireframes, user stories and concepts to reality. I am always open to
-                learning new tools and techniques to make that haappen. As A UX/UI Designer, I believe one of the most important
-                thing in any application or website is the user's experience. It is my goal to make everything I work on
-                beautiful and easy to understand for all users.
-            </p>
+            <p>Educated as a Full-Stack Web Developer; passionate about Front-End and UX/UI Design. Excited to try new things
+                with a proven track-record of quickly picking up new development languages and libraries. Independently motivated
+                or thrilled to be part of a team. Experienced in building applications using HTML5, CSS3, JavaScript (ES6),
+                jQuery, React, Angular, and Node. Knowledge of design tools such as Illustrator, Invision, Sketch, Balsamiq,
+                Pen and Paper, and Adobe XD.</p>
+            <p>"As a Front-End Developer, I create wire-frames, user stories, and website concepts, and make them a reality.
+                As a UX/UI Designer, I know nothing is more important than the user's experience; my mission is to make everything
+                I create aesthetically pleasing and intuitive for all users."</p>
             <p class="lead"></p>
             </p>
         </div>
@@ -64,7 +67,7 @@
             <div class="container-fluid text-center skills">
                 <h1 class="display-2">Skills</h1>
                 <p>A few of my current projects. All utilize different framworks and libraries from HTML all the way to React.
-                    This list will be updated throught time so check back from time to time</p>
+                    This list will be updated throught time so check back from time to time.</p>
                 </p>
                 <img src="./assets/img/Skills.png" class="img-fluid skillsImg" alt="Skills">
                 <div class="row justify-content-center">
@@ -79,10 +82,10 @@
         <div class="container-fluid text-center work">
             <h1 class="display-2">Work</h1>
             <p>A few of my current projects. All utilize different framworks and libraries from HTML all the way to React. This
-                list will be updated throught time so check back from time to time</p>
+                list will be updated throught time so check back from time to time.</p>
             </p>
             <div class="row justify-content-center">
-                <div class="project col-sm-3 justify-content-center">
+                <div class="project col">
                     <div class="card project-card" style="width: 18rem;">
                         <img class="card-img-top projectImg" src="./assets/img/ChatAppscreenshot.png" alt="Card image cap">
                         <div class="card-body">
@@ -93,18 +96,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="project col-sm-3">
+                <div class="project col">
                     <div class="card project-card" style="width: 18rem;">
                         <img class="card-img-top projectImg" src="./assets/img/drinks.png" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Liqr</h5>
-                            <p class="card-text">LiQr is a drink rating and commenting app that lets users vote on their favorite drinks.</p>
+                            <p class="card-text">LiQr is a drink rating and commenting app that lets users vote on their favorite drinks</p>
                             <a href="https://sheltered-ocean-15868.herokuapp.com/" target="blank" class="btn btn-primary">Demo</a>
                             <a href="https://github.com/MarQG/liQr-App" target="blank" class="btn btn-primary">Code</a>
                         </div>
                     </div>
                 </div>
-                <div class="project col-sm-3">
+                <div class="project col">
                     <div class="card project-card" style="width: 18rem;">
                         <img class="card-img-top projectImg" src="./assets/img/indecisionapp.png" alt="Card image cap">
                         <div class="card-body">
@@ -117,18 +120,18 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="project col-sm-3 justify-content-center">
+                <div class="project col">
                     <div class="card project-card" style="width: 18rem;">
                         <img class="card-img-top projectImg" src="./assets/img/Bamzon.PNG" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Bamazon Cli</h5>
-                            <p class="card-text">Simple Chat app using Node, Express, and Socket.IO</p>
-                            <a href="#" target="blank" class="disabled btn btn-primary">Not Available</a>
-                            <a href="https://github.com/CollinPCavallo/chat-app" target="blank" class="btn btn-primary">Code</a>
+                            <p class="card-text">A inventory management system using MySql on the CLI</p>
+                            <a href="#" target="blank" class="disabled btn btn-primary">CLI Only</a>
+                            <a href="https://github.com/CollinPCavallo/bamazon" target="blank" class="btn btn-primary">Code</a>
                         </div>
                     </div>
                 </div>
-                <div class="project col-sm-3">
+                <div class="project col">
                     <div class="card project-card" style="width: 18rem;">
                         <img class="card-img-top projectImg" src="./assets/img/soundslike.png" alt="Card image cap">
                         <div class="card-body">
@@ -139,14 +142,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="project col-sm-3">
+                <div class="project col">
                     <div class="card project-card" style="width: 18rem;">
                         <img class="card-img-top projectImg" src="./assets/img/FriendFinder.png" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Friend Finder</h5>
                             <p class="card-text">A survery to find which drink you should have after a long day</p>
-                            <a href="https://github.com/CollinPCavallo/Friend-Finder" target="blank" class="btn btn-primary">Code</a>
                             <a href="https://immense-sierra-54310.herokuapp.com/takesurvey" target="blank" class="btn btn-primary">Demo</a>
+                            <a href="https://github.com/CollinPCavallo/Friend-Finder" target="blank" class="btn btn-primary">Code</a>
+
                         </div>
                     </div>
                 </div>
@@ -159,11 +163,9 @@
             <a href="mailto:collincavallo@gmail.com" target="_top">
                 <img class="contactImg" src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Google-128.png" alt="">
             </a>
-            &#124;
             <a href="https://www.linkedin.com/in/collin-cavallo-383720149/">
                 <img class="contactImg" src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/LinkedIn-128.png" alt="">
             </a>
-            &#124;
             <a href="https://github.com/CollinPCavallo">
                 <img class="contactImg" src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Github-128.png" alt="">
             </a>
