@@ -3,6 +3,8 @@ body,html{
     background: black;
     font-family: 'Maven Pro', sans-serif;
     font-size: 17px;
+    letter-spacing: .02em;
+    
 }
 .jumbotron{
 height: 100%;
@@ -49,6 +51,12 @@ padding: 50px 0 0 0;
     margin: 0 auto;
     
 }
+h5{
+    margin-bottom: 1rem !important;
+    font-size: 1.5em;
+    color: rgb(38, 187, 187)
+
+}
 h1, p{
     color: rgb(38, 187, 187);
 }
@@ -68,6 +76,7 @@ a{
 .nav-link:hover{
     background: rgb(38, 187, 187);
     color: white;
+    transition: all .8s;
 }
 #work, #skills{
     height: 40px;
